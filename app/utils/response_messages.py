@@ -1,17 +1,19 @@
 from enum import Enum
 
 class ResponseMessage(str, Enum):
-    CREATED = "Medical examination created successfully"
-    UPDATED = "Medical examination updated successfully"
-    DELETED = "Medical examination deleted successfully"
-    NOT_FOUND = "Medical examination not found"
-    ERROR_CREATE = "An error occurred while creating the medical examination. Please try again."
-    ERROR_UPDATE = "An error occurred while updating the medical examination. Please try again."
-    ERROR_DELETE = "An error occurred while deleting the medical examination. Please try again."
-    SPECIALTY_CREATED = "Specialty created successfully"
-    SPECIALTY_UPDATED = "Specialty updated successfully"
-    SPECIALTY_DELETED = "Specialty deleted successfully"
-    SPECIALTY_NOT_FOUND = "Specialty not found"
-    ERROR_CREATE_SPECIALTY = "An error occurred while creating the specialty. Please try again."
-    ERROR_UPDATE_SPECIALTY = "An error occurred while updating the specialty. Please try again."
-    ERROR_DELETE_SPECIALTY = "An error occurred while deleting the specialty. Please try again."
+    CREATED = "Examen médico creado exitosamente"
+    UPDATED = "Examen médico actualizado exitosamente"
+    DELETED = "Examen médico eliminado exitosamente"
+    NOT_FOUND = "Examen médico no encontrado"
+    ERROR_CREATE = "Ocurrió un error al crear el examen médico. Por favor, intenta nuevamente."
+    ERROR_UPDATE = "Ocurrió un error al actualizar el examen médico. Por favor, intenta nuevamente."
+    ERROR_DELETE = "Ocurrió un error al eliminar el examen médico. Por favor, intenta nuevamente."
+    
+    SPECIALTY_CREATED = "Especialidad creada exitosamente"
+    SPECIALTY_UPDATED = "Especialidad actualizada exitosamente"
+    SPECIALTY_DELETED = "Especialidad eliminada exitosamente"
+    SPECIALTY_NOT_FOUND = "Especialidad no encontrada"
+    ERROR_CREATE_SPECIALTY = "Ocurrió un error al crear la especialidad. Por favor, intenta nuevamente."
+    ERROR_UPDATE_SPECIALTY = "Ocurrió un error al actualizar la especialidad. Por favor, intenta nuevamente."
+    ERROR_DELETE_SPECIALTY = "Ocurrió un error al eliminar la especialidad. Por favor, intenta nuevamente."
+

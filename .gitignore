@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual de Python
+.venv
+
+# Ignorar directorios de cache genéricos
+**/cache/
+
+# Ignorar directorios de bytecode de Python
+**/__pycache__/
+
+# (Opcional) Archivos temporales
+*.tmp
+*.log

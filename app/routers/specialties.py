@@ -1,5 +1,3 @@
-# app/routers/specialties_view.py
-
 from fastapi import APIRouter, HTTPException
 from app.database import database
 from app.models.specialty import specialty

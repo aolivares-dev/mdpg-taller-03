@@ -1,5 +1,3 @@
-# app/routers/vista_medico.py
-
 from fastapi import APIRouter, HTTPException
 from app.database import database
 from app.models.medical_examination import medical_examination

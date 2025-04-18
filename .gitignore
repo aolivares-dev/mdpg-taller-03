@@ -10,3 +10,6 @@
 # (Opcional) Archivos temporales
 *.tmp
 *.log
+
+# (Opcional) Archivos de configuración
+.env

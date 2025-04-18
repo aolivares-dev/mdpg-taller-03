@@ -1,8 +1,8 @@
-# app/schemas/especialidad.py
-
+from typing import Optional
 from pydantic import BaseModel
 
 class BasicSpecialty(BaseModel):
+    id: Optional[int] = None
     name: str
     description: str | None = None
 
@@ -13,7 +13,7 @@ class UpdateSpecialty(BasicSpecialty):
     pass
 
 class Specialty(BasicSpecialty):
-    id: int
+    id: Optional[int] = None
 
     class Config:
         from_attributes = True

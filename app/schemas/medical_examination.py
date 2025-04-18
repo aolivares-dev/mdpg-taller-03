@@ -1,9 +1,8 @@
-# app/schemas/vista_medico.py
-
+from typing import Optional
 from pydantic import BaseModel
 
 class BasicMedicalExamination(BaseModel):
-    id: int
+    id: Optional[int] = None
     name: str
     lastname: str
     specialties: str

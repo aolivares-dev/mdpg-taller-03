@@ -1,5 +1,3 @@
-# app/models/especialidad.py
-
 from sqlalchemy import Table, Column, Integer, String, Text
 from app.database import metadata
 
